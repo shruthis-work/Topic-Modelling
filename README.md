@@ -54,14 +54,26 @@ Process Highlights:
    False Negatives  | 14  |
    True Positives   | 233 |
    
-   Conclusion:
+   -------------------------------------------------------------------------------------------------------------------------------------
+   
+   # Conclusion:
    
    The Logistic Regression has performed better at differentiating the texts over the Naive Bayes model because of the lower number of 
    False Positives and False Negatives it has compared to the Naive Bayes model's. The two sub-reddit's are distinctly different 
    and hence the model's are able to perform so well.
    
-   > Word Clouds
+   ## Word Clouds
    
+   > Politics Wordcloud
    ![picture alt](https://github.com/shruthis-work/Topic-Modelling/blob/master/Politics_wordcloud.png "Politics Wordcloud")
    
+   > Sports Word Cloud
    ![picture alt](https://github.com/shruthis-work/Topic-Modelling/blob/master/Sports_wordcloud.png "Sports Wordcloud")
+   
+   # Recommendations:
+   
+   The data keeps getting updated everytime the website is refreshed, hence everytime the request is made a new dataset is obtained.        This makes a steady training set unavailable to train the models and it affects the words the count vectorizer is fit to. This          affects the performance of the models. A constant backed up data on the api would improve the fit of the count-vectorizer and hence      train a steadier classifier. Never the less, the word clouds prove that the words have been clearly differentiated.
+   
+   # General Comments:
+   This model is built to differentiate whether a post belongs to the Sports topic or the politics topic and has achieved that.
+   According to the Word Clouds, the current hot-topic in the sports sub-reddit is the Cricket World Cup. The current hot-topic in the      politics sub-reddit is Trump as usual, Republicans vs Democrats so a conclusion would be that American Politics does really affect      the world.
