@@ -39,12 +39,15 @@ Process Highlights:
   > For the Naive Bayes Model:
   
   Accuracy: 96.9 %
-  
-  True Negatives: 240
-  False Positives: 6
-  False Negatives: 4
-  True Positives: 243
-   
+  -----------------------|
+  True Negatives  | 240  
+  -----------------------|
+  False Positives | 6
+  -----------------------|
+  False Negatives | 4
+  -----------------------|
+  True Positives  | 243
+  -----------------------|
    > For Logistic Regression:
    
    Accuracy: 96.7%
