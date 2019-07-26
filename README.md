@@ -40,8 +40,6 @@ Process Highlights:
   
   Accuracy: 96.9 %
   
-  Confusion Matrix
-  -----------------------
   True Negatives  | 240  | 
   False Positives | 6    |
   False Negatives | 4    |
@@ -51,14 +49,19 @@ Process Highlights:
    
    Accuracy: 96.7%
    
-   True Negatives: 246
-   False Positives: 0
-   False Negatives: 14
-   True Positives: 233
+   True Negatives   | 246 |
+   False Positives  | 0   |
+   False Negatives  | 14  |
+   True Positives   | 233 |
    
    Conclusion:
    
    The Logistic Regression has performed better at differentiating the texts over the Naive Bayes model because of the lower number of 
    False Positives and False Negatives it has compared to the Naive Bayes model's. The two sub-reddit's are distinctly different 
    and hence the model's are able to perform so well.
-      
+   
+   > Word Clouds
+   
+   ![picture alt](https://github.com/shruthis-work/Topic-Modelling/blob/master/Politics_wordcloud.png "Politics Wordcloud")
+   
+   ![picture alt](https://github.com/shruthis-work/Topic-Modelling/blob/master/Sports_wordcloud.png "Sports Wordcloud")
