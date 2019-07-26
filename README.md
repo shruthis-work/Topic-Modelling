@@ -1,7 +1,7 @@
 # Web Scraping and Topic Modelling
 > Author: Shruthi
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-
+# PROJECT 
 Problem Statement: 
 
 Model a binary classifier to execute classification
@@ -34,7 +34,7 @@ Process Highlights:
    * Logistic Regression is initialized also because our target column is a 1 or 0
    
   - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-   Results:
+  # Results:
   
   > For the Naive Bayes Model:
   
